@@ -1,12 +1,12 @@
 # Site settings
 title: muves
-email: aarne.talman@basement.ai
+email: info@muves.io
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 twitter_username: muves_io
-linkedin_username: 
+linkedin_username: muves-io
 instagram_username: 
 facebook_username: 
 
