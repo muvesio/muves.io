@@ -36,6 +36,15 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J1HTLEGL10"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-J1HTLEGL10');
+    </script>
 
 </head>
 
@@ -60,7 +69,9 @@
                 <li>
                     <a class="page-scroll" href="#about">About</a>
                 </li>
-
+                <li>
+                    <a class="page-scroll" href="#demos">Demos</a>
+                </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
                 </li>
@@ -104,6 +115,34 @@
       </div>
         </div>
     </div>
+</section>
+
+  <section id="demos">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Demos</h2>
+                <hr class="primary">
+                <p class="text-muted">Here are a couple of recent demos using Muves</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-2 text-center">
+                <p><a href="http://demo.muves.io"><img src="img/muves_demo.png" align="middle" width="400"></a></p>
+                <h4><a href="http://demo.muves.io">Multilingual Amazon Book Search</a></h4>
+                    <p><b>Embedding type:</b> Text Embeddings <br />
+                        <b>Data:</b> 1M books from the Amazon product dataset</p>
+            </div>
+            <div class="col-lg-4 text-center" >
+                <p><a href="http://os-demo.gsitechnology.com:8080" ><img src="img/gsi_demo.png" align="middle" width="400"></a></p>
+                <h4><a href="http://os-demo.gsitechnology.com:8080" >Multilingual Image and Text Embedding Search with GSI APU harware acceleration</a></h4>
+                    <p><b>Embedding type:</b> Image and Text Embeddings <br />
+                        <b>Data:</b> 10M images and captions from the LAION-400M dataset</p>
+            </div>
+    </div>
+</div>
 </section>
 
   <section id="contact">
