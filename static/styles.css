@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    font-family: sans-serif;
+    background-color: #f7f3e8;
+    color: #333;
+    padding-bottom: 80px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+h1 {
+    font-family: 'Pacifico', cursive; 
+    font-size: 4rem; 
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #654321;
+    margin-bottom: 0.5rem; 
+}
+
+h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-container {
+    text-align: center;
+    margin-bottom: 2rem; 
+}
+
+.tagline {
+    font-size: 1.25rem; 
+    font-style: italic;
+    margin-top: 0.5rem; 
+    color: #654321;
+}
+
+.privacy {
+    width: 90%; 
+    max-width: 60rem; 
+    margin-bottom: 1.875rem; 
+    border: 1px solid #ddd;
+    padding: 1.25rem; 
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+h2 { 
+    color: #654321;
+    text-align: center; 
+    margin-bottom: 2rem;
+    font-size: 2rem; 
+}
+
+h3 {
+    color: #654321;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+    font-size: 1.25rem; 
+    text-align: left;
+
+}
+
+.form-container {
+    width: 90%; 
+    max-width: 40rem; 
+    margin-bottom: 1.875rem; 
+    border: 1px solid #ddd;
+    padding: 1.25rem; 
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Remove position: relative if it's not needed for other purposes */
+}
+
+form {
+    text-align: center; /* This might be redundant, remove if not needed */
+    margin-bottom: 1.25rem; 
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+/* Style for labels and inputs on the same line */
+.form-group {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 1rem; 
+}
+
+.form-group label {
+    flex: 0 0 8rem; 
+    text-align: left;
+    margin-right: 1rem; 
+    font-size: 0.875rem; 
+}
+
+input[type="text"],
+input[type="email"] { 
+    padding: 0.625rem; 
+    border: 1px solid #654321;
+    border-radius: 5px;
+    flex: 1; 
+    box-sizing: border-box; 
+}
+
+label {
+    display: block;
+    margin-bottom: 0.3rem;
+    color: #654321;
+}
+
+/* Button styles */
+button {
+    padding: 0.625rem 1.25rem; 
+    background-color: #654321;
+    color: #f7f3e8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Alignment and spacing for button */
+    margin-left: 9rem; /* Adjust this value to align with inputs */
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; /* Ensure the container takes the full width */
+}
+
+.info {
+    text-align: center;
+    max-width: 40rem; 
+    margin-bottom: 1rem; 
+}
+
+.info-text {
+    text-align: center;
+    font-size: 0.875rem; 
+    color: #654321; 
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+.consent-text {
+    text-align: left;
+    font-size: 0.875rem; 
+    color: #654321; 
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.signup-button {
+    background-color: #654321;
+    padding: 0.5rem 1rem; 
+    color: #f7f3e8;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none; 
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 2rem;
+    transition: background-color 0.3s ease; 
+}
+
+.signup-button:hover,
+button:hover { 
+    background-color: #4a3115; 
+}
+
+footer {
+    text-align: center;
+    padding: 1.25rem; 
+    color: #654321;
+    background-color: #f7f3e8;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.75rem; 
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) { 
+    h1 {
+        font-size: 3rem; 
+    }
+    h2 {
+        font-size: 1.5rem; 
+    }
+    .form-container {
+        padding: 1rem; 
+        width: 95%;
+        max-width: none;
+    }
+    .form-group label {
+        flex: 0 0 3rem;
+    }
+    button {
+        margin-left: 4rem; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Message styling (for contact page) */
+.message {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.success {
+    background-color: #d4edda; 
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.error {
+    background-color: #f8d7da; 
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}

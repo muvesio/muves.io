@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Muves - Turn Papers into Insights</title>
+  <link rel="stylesheet" href="/static/styles.css"> </head>
+<body>
+  <div class="header-container"> 
+    <h1><a href="/">muves</a></h1> 
+    <p class="tagline">Turn Papers into Insights</p> 
+  </div>
+  <div class="info">
+    <p class="info-text">Your personal AI research assistant.
+    Muves uses AI to analyze and summarize complex information, making research accessible to everyone.</p>
+  </div> 
+    <div class="form-container">
+      <h3>Join the waiting list</h3>
+      <p class="consent-text">
+        By submitting this form, you consent to us processing your data (name, company, email) to respond to your inquiry.
+         Our legal basis for this processing is our legitimate interest in communicating with potential customers.
+         We will retain your data for a maximum of 12 months. For more details on your rights and our data practices, please review our <a href="/privacy">Privacy Policy</a>.
+      </p>
+    <form action="/send-email" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+    <footer>
+      <p>&copy; 2025 Muves - <a href="/privacy">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
